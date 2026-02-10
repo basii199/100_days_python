@@ -2,8 +2,8 @@ class QuizBrain():
     def __init__(self, questions_list):
         self.questions_list = questions_list
         self.question_number = 0
-        self.still_has_questions = self.question_number < len(self.questions_list)
         self.score = 0
+        self.still_has_questions = self.question_number < len(self.questions_list)
 
     # def still_has_questions(self):
     #     return self.question_number < len(self.questions_list)
