@@ -45,3 +45,5 @@ Thumbs.db
 **/*.xml
 **/__pycache__/
 **/*.pyc
+
+secrets.json
